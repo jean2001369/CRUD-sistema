@@ -1,0 +1,20 @@
+# CRUD Simples de Tarefas em PHP
+
+Este é um projeto básico de CRUD (Create, Read, Update, Delete) de tarefas, desenvolvido em PHP com uso do MySQL para persistência de dados. O projeto é uma aplicação simples que permite adicionar, visualizar, editar e excluir tarefas, ideal para aprendizado e demonstração de conhecimentos em PHP.
+
+## Estrutura do Projeto
+
+meu-crud-tarefas/
+├── config/
+│   └── database.php          // Arquivo de conexão com o banco de dados
+├── controllers/
+│   ├── BaseController.php     // Classe base com funcionalidades comuns
+│   └── TaskController.php     // Controlador de Tarefas
+├── views/
+│   ├── index.php              // Lista de tarefas
+│   ├── create.php             // Formulário de criação de tarefa
+│   ├── edit.php               // Formulário de edição de tarefa
+│   └── delete.php             // Exclusão de tarefa
+├── public/
+│   └── index.php              // Página inicial (acesso principal)
+└── README.md                  // Documentação do projeto
